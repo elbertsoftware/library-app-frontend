@@ -1,12 +1,10 @@
 import React from 'react';
+
 import './App.css';
+import { Navbar } from './layouts/NavbarAndFooter/Navbar';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <h1>Welcome to our fullstack app</h1>
-    </div>
+    <Navbar />
   );
-}
-
-export default App;
+};
